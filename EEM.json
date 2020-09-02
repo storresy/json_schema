@@ -1,0 +1,44 @@
+{
+   "$id":"https://url.com/EEM.json",
+   "$schema":"http://json-schema.org/draft-07/schema#",
+   "events":{
+
+      "OrganicMktgHostUpdated":{
+         "$id":"https://url.com/EEM.json#OrganicMktgHostUpdated",
+         "$schema":"http://json-schema.org/draft-04/schema#",
+         "title":"OrganicMktgHostUpdated",
+         "type":"object",
+         "description":"aham",
+         "required":[
+            "eventType"
+         ],
+         "additionalProperties":false,
+         "properties":{
+            "eventType":{
+               "type":"string",
+               "description":"The event type",
+               "const":"ORGANIC_MKTG_HOST_UPDATED"
+            }
+         }
+      },
+
+      "CreatedProspectInterest":{
+         "$id":"https://url.com/EEM.json#CreatedProspectInterest",
+         "$schema":"http://json-schema.org/draft-04/schema#",
+         "title":"CreatedProspectInterest",
+         "type":"object",
+         "description":"aham",
+         "required":[
+            "eventType"
+         ],
+         "properties":{
+            "eventType":{
+               "type":"string",
+               "description":"The type of event",
+               "const":"CREATED_INTEREST"
+            }
+         },
+         "additionalProperties":false
+      }
+   },
+}
