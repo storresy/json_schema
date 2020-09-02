@@ -4,7 +4,7 @@
    "events":{
 
       "OrganicMktgHostUpdated":{
-         "$id":"https://raw.githubusercontent.com/storresy/json_schema/master/EEM.json#OrganicMktgHostUpdated",
+         "$id":"#OrganicMktgHostUpdated",
          "$schema":"http://json-schema.org/draft-04/schema#",
          "title":"OrganicMktgHostUpdated",
          "type":"object",
